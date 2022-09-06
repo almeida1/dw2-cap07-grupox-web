@@ -25,7 +25,12 @@ public class UsuarioApp implements UserDetails {
 // TODO Auto-generated method stub
 		return null;
 	}
-
+	public void setUserName (String userName) {
+		this.userName = userName;
+	}
+	public void setPassword(String passWord) {
+		this.password = passWord;
+	}
 	@Override
 	public String getPassword() {
 // TODO Auto-generated method stub
